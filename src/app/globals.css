@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --main-color :  #8A51FF;
+  --secondary-color : #050A27;
+  --third-color:#535353;
+}
+/* Start Sidebar */
+.sidebar .content .box{
+  margin-top: 100px;
+}
+
+.sidebar .content .box ul li{
+  margin: 30px;
+  padding: 15px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.sidebar .content .box ul li.active{
+  color: white;
+  box-shadow: 4px 6px 1px #000000;
+  border: 2px solid black;
+  background-color: #8A51FF;
+}
+/* End Sidebar */
+
+/* Start About */
+.about .intro-texts .texts{
+  font-size: 13px;
+  color: #535353;
+}
+/* End About */
